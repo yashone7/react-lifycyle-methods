@@ -1,0 +1,37 @@
+mounting 
+
+->
+
+1. constructor
+2. render method
+3. cdm -  componentDidMount
+
+
+updating phase
+
+->
+
+1. render method
+2. componentDidUpdate
+
+
+unmounting phase
+
+1. componentDidUnMount
+
+
+    // const data = [
+    //   { id: 1, title: "test one", name: "john" },
+    //   { id: 2, title: "test two", name: "mike" },
+    //   { id: 3, title: "test three", name: "doe" },
+    //   { id: 4, title: "test 4", name: "doe" },
+    //   { id: 5, title: "test 5", name: "doe" },
+    //   { id: 6, title: "test 6", name: "doe" },
+    //   { id: 7, title: "test 7", name: "doe" },
+    //   { id: 8, title: "test 8", name: "doe" },
+    //   { id: 9, title: "test 9", name: "doe" },
+    // ];
+    // console.log("cdm of post is called");
+    // setTimeout(() => {
+    //   this.setState({ ...this.state, posts: data });
+    // }, 1800);
